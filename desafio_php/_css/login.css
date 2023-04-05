@@ -1,0 +1,88 @@
+body { margin:0 }
+header {
+    
+    width:100%;
+    height:67px;
+    background-color:#EDEDDC;
+    border-bottom:1px solid #666;
+}
+
+
+.divisao {
+
+	
+	justify-content: space-between; /* cria espaço entre os itens do container */
+	background-color: #bbcdbb;
+    width: auto;
+	height: auto;
+	border-radius: 10px;
+	border-style:ridge ;
+	border-width: 5px;
+	position: sticky;   
+    top: 10;
+	z-index: 2;	
+	opacity: 0.9;
+
+
+
+}
+
+.titulo {
+
+    font-family: sans-serif;
+    color:#222763;
+}
+
+
+.input {
+    
+    font-size: 20PX;
+    width:400px;
+    height:30px;
+    margin:0 auto;
+    color: #150430;
+    border-radius: 5px;
+}
+
+
+.texto {
+    
+    font-size: 25PX;
+    color: #150430;
+    
+}
+
+.input_02 {
+    width:400px;
+    height:15px;
+    margin:0 auto;
+}
+
+
+div#janela_formulario {
+    position: relative;
+    width:800px;
+    height:67px;
+    margin:0 auto;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 50px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    
+  }
+
+  
+  .btn-three {
+    color: #000000;
+    transition: all 0.5s;
+    
+
+  }
